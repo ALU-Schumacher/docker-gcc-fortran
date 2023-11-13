@@ -3,7 +3,7 @@ This repository provides a container that allows to build fortran programs with 
 To compile your code run this command in the directory where you would run usually the compilation:
 
 ```bash
-docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) -u $(id -u):$(id -g) aluschumacher/gcc-fortran:lastest <command>
+docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) -u $(id -u):$(id -g) aluschumacher/gcc-fortran:latest <command>
 ```
 
 Here, `<command>` can be either `gfortran` followed by some arguments, or `make`.
